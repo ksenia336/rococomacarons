@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+        <meta name="title" content="Tienda de Macarones" />
+        <title>Rococó Macarons - Inicio</title>
+        <link rel="stylesheet" href="./css/styles.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet" />
+        <link rel="icon" href="./img/logo.png" type="imagen-logo" />
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <ul>
+                        <a href="index.html"><img src="./img/logo.png" alt="" /></a>
+                    </ul>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="./productos.html">Productos</a></li>
+                    <li><a href="./sobrenosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+                <div class="login-icon">
+                    <a href="./sesion.html"><i class="fas fa-user"></i></a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <dialog id="modal">
+                <h2>Iniciar Sesión</h2>
+            </dialog>
+            <section class="slider">
+                <section class="slides">
+                    <div class="slide"><img src="./img/slider1.png" alt="slider 1" /></div>
+                    <div class="slide"><img src="./img/slider2.png" alt="slider 2" /></div>
+                    <div class="slide"><img src="./img/slider3.png" alt="slider 3" /></div>
+                </section>
+                <section class="dots">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </section>
+            </section>
+            <section class="container container-features">
+                <div class="card-feature">
+                    <i class="fa-solid fa-plane-up"></i>
+                    <div class="feature-content">
+                        <span>Envíos gratuitos a nivel mundial</span>
+                        <p>En pedidos superiores a $XX.X</p>
+                    </div>
+                </div>
+                <div class="card-feature">
+                    <i class="fa-solid fa-wallet"></i>
+                    <div class="feature-content">
+                        <span>Contrareembolso</span>
+                        <p>100% garantía de devolución de dinero</p>
+                    </div>
+                </div>
+                <div class="card-feature">
+                    <i class="fa-solid fa-gift"></i>
+                    <div class="feature-content">
+                        <span>Tarjeta de regalo especial</span>
+                        <p>Ofrece bonos especiales con regalo</p>
+                    </div>
+                </div>
+                <div class="card-feature">
+                    <i class="fa-solid fa-headset"></i>
+                    <div class="feature-content">
+                        <span>Servicio al cliente 24/7</span>
+                        <p>Llámenos 24/7 al 11-4567-8923</p>
+                    </div>
+                </div>
+            </section>
+            <section class="tamaño-cajas">
+                <div class="title">
+                    <h2 class="title">Elegí el tamaño de tu caja</h2>
+                </div>
+                <div class="cajas-box-container">
+                    <div class="cajas-image-box">
+                        <img src="./img/diseñocaja6.png" alt="Imagen 1" />
+                        <div class="overlay">
+                            <h2>Petite Boîte (6 unidades)</h2>
+                            <p>$17.000</p>
+                        </div>
+                    </div>
+                    <div class="cajas-image-box">
+                        <img src="./img/diseñocaja12.png" alt="Imagen 2" />
+                        <div class="overlay">
+                            <h2>Grande Boîte (12 unidades)</h2>
+                            <p>$34.000</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="separador">
+                <img src="./img/moño rosa.png" alt="moño" class="moño" />
+            </div>
+            <h1 class="heading1">Nuestros mejores productos</h1>
+            <section class="container-carousel">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-container mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./img/arand.png" alt="" />
+                            <div class="card-description">
+                                <div class="card-title">
+                                    <h4>Macaron de Arándanos</h4>
+                                </div>
+                                <div class="card-text">
+                                    <p>Dos tapas de macaron de almendras rellenas de una suave crema de arándanos</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/avell.png" alt="" />
+                            <div class="card-description">
+                                <div class="card-title">
+                                    <h4>Macaron de Avellana</h4>
+                                </div>
+                                <div class="card-text">
+                                    <p>Dos tapas de macaron de almendras rellenas de una suave crema de avellana</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/frambu.png" alt="" />
+                            <div class="card-description">
+                                <div class="card-title">
+                                    <h4>Macaron de Frambuesa</h4>
+                                </div>
+                                <div class="card-text">
+                                    <p>Dos tapas de macaron de almendras rellenas de mermelada de frambuesa</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/lim.png" alt="" />
+                            <div class="card-description">
+                                <div class="card-title">
+                                    <h4>Macaron de Limón</h4>
+                                </div>
+                                <div class="card-text">
+                                    <p>Dos tapas de macaron de almendras rellenas de mermelada de limón</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/ros.png" alt="" />
+                            <div class="card-description">
+                                <div class="card-title">
+                                    <h4>Macaron de Rosas</h4>
+                                </div>
+                                <div class="card-text">
+                                    <p>Dos tapas de macaron de almendras rellenas de una suave crema de rosas</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/pista.png" alt="" />
+                            <div class="card-description">
+                                <div class="card-title">
+                                    <h4>Macaron de Pistacho</h4>
+                                </div>
+                                <div class="card-text">
+                                    <p>Dos tapas de macaron de almendras rellenas de una suave crema de pistacho</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="separador">
+                <img src="./img/moño rosa.png" alt="moño" class="moño" />
+            </div>
+            <section class="map">
+                <h1 class="heading-1">Visitá nuestra sucursal</h1>
+                <section class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d305.00420043438794!2d-58.39996826398809!3d-34.59427401365448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca973367614b%3A0x578a326be92a4e9e!2sArenales%202302%2C%20C1124AAL%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1725318809819!5m2!1ses-419!2sar"
+                        allowfullscreen=""
+                        loading="lazy"
+                    ></iframe>
+                </section>
+            </section>
+        </main>
+    </body>
+    <footer>
+        <div class="footer-left">
+            <img src="./img/logo.png" alt="Rococó Logo" class="logo" />
+        </div>
+        <div class="footer-center">
+            <a href="./pages/sobrenosotros.html">Sobre Nosotros</a>
+            <a href="./pages/Contacto.html">Contactanos</a>
+        </div>
+        <div class="footer-right">
+            <p>©2024 Rococó.com Todos los derechos reservados.</p>
+            <div class="social-icons">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-pinterest"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
+</html>
