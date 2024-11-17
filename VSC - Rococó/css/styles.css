@@ -1863,91 +1863,12 @@ footer {
 }
 
 /*PRODUCTOS*/
-.cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    justify-content: center;
-    align-items: center;
+.see-more {
+    cursor: pointer;
 }
 
-.cards figure {
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-figcaption p {
-    font-size: clamp(1em, 2vw, 1.6em);
-    margin: 10px 0;
-    display: flex;
-    justify-content: center;
-}
-
-figcaption h3 {
-    font-size: clamp(1em, 2vw, 2.1em);
-    margin: 10px 0;
-    font-weight: 100;
-}
-
-.titulo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #93cbd6;
-    margin: 20px;
-    font-weight: 10;
-    font-size: xx-large;
-}
-
-.aran {
-    color: #4163bb;
-}
-
-.frambu {
-    color: #aa576b;
-}
-
-.choco {
-    color: #b78e6c;
-}
-
-.redvel {
-    color: #a52524;
-}
-
-.pistach {
-    color: #76a50a;
-}
-
-.ros {
-    color: #f2939a;
-}
-
-.limo {
-    color: #d6a403;
-}
-
-.chocbl {
-    color: #e0c9ae;
-}
-
-.keylime {
-    color: #c8ba66;
-}
-
-.avell {
-    color: #d1b58b;
-}
-
-.ddl {
-    color: #733309;
-}
-
-.carasal {
-    color: #cc8802;
+.show {
+    display: flex !important;
 }
 
 .cuadro1 {
@@ -1956,11 +1877,28 @@ figcaption h3 {
     height: 400px;
     background-position: center;
     background-size: cover;
+    position: relative;
 }
 
 .cuadro1:hover {
     background-image: url("../img/arand.png");
     background-size: cover;
+}
+
+.info-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(10, 10, 10, 0.5);
+    border-radius: 30px;
+    display: none;
 }
 
 .cuadro2 {
@@ -1969,6 +1907,23 @@ figcaption h3 {
     height: 400px;
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+
+.info-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(10, 10, 10, 0.5);
+    border-radius: 30px;
+    display: none;
 }
 
 .cuadro2:hover {
@@ -1982,6 +1937,23 @@ figcaption h3 {
     height: 400px;
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+
+.info-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(10, 10, 10, 0.5);
+    border-radius: 30px;
+    display: none;
 }
 
 .cuadro3:hover {
@@ -1995,6 +1967,23 @@ figcaption h3 {
     height: 400px;
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+
+.info-4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(10, 10, 10, 0.5);
+    border-radius: 30px;
+    display: none;
 }
 
 .cuadro4:hover {
@@ -2008,6 +1997,23 @@ figcaption h3 {
     height: 400px;
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+
+.info-5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(10, 10, 10, 0.5);
+    border-radius: 30px;
+    display: none;
 }
 
 .cuadro5:hover {
@@ -2021,6 +2027,23 @@ figcaption h3 {
     height: 400px;
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+
+.info-6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(10, 10, 10, 0.5);
+    border-radius: 30px;
+    display: none;
 }
 
 .cuadro6:hover {
@@ -2034,6 +2057,23 @@ figcaption h3 {
     height: 400px;
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+
+.info-7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(10, 10, 10, 0.5);
+    border-radius: 30px;
+    display: none;
 }
 
 .cuadro7:hover {
@@ -2047,6 +2087,23 @@ figcaption h3 {
     height: 400px;
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+
+.info-8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(10, 10, 10, 0.5);
+    border-radius: 30px;
+    display: none;
 }
 
 .cuadro8:hover {
@@ -2060,6 +2117,23 @@ figcaption h3 {
     height: 400px;
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+
+.info-9 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(10, 10, 10, 0.5);
+    border-radius: 30px;
+    display: none;
 }
 
 .cuadro9:hover {
@@ -2073,6 +2147,23 @@ figcaption h3 {
     height: 400px;
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+
+.info-10 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(10, 10, 10, 0.5);
+    border-radius: 30px;
+    display: none;
 }
 
 .cuadro10:hover {
@@ -2086,6 +2177,23 @@ figcaption h3 {
     height: 400px;
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+
+.info-11 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(10, 10, 10, 0.5);
+    border-radius: 30px;
+    display: none;
 }
 
 .cuadro11:hover {
@@ -2099,6 +2207,23 @@ figcaption h3 {
     height: 400px;
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+
+.info-12 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(10, 10, 10, 0.5);
+    border-radius: 30px;
+    display: none;
 }
 
 .cuadro12:hover {
@@ -2106,13 +2231,26 @@ figcaption h3 {
     background-size: cover;
 }
 
-/*CONTACTO*/
-.container-contacto {
+/*contacto*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+input,
+textarea {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
     position: relative;
     width: 100%;
     min-height: 60vh;
     padding: 2rem;
-    background-color: #fff;
+    /* background-color: #fff; */
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -2155,7 +2293,7 @@ form {
     position: relative;
 }
 
-.title-contact {
+.title {
     color: #fff;
     font-weight: 500;
     font-size: 1.5rem;
@@ -2204,7 +2342,7 @@ textarea.input {
     transition: 0.5s;
 }
 
-.input-container .textarea label {
+.input-container.textarea label {
     top: 1rem;
     transform: translateY(0);
 }
@@ -2309,12 +2447,12 @@ textarea.input {
     color: #333;
 }
 
-.social-icons-contact {
+.social-icons {
     display: flex;
     margin-top: 0.5rem;
 }
 
-.social-icons-contact a {
+.social-icons a {
     width: 35px;
     height: 35px;
     border-radius: 5px;
@@ -2326,7 +2464,7 @@ textarea.input {
     transition: 0.3s;
 }
 
-.social-icons-contact a:hover {
+.social-icons a:hover {
     transform: scale(1.05);
 }
 
@@ -2362,7 +2500,44 @@ textarea.input {
     opacity: 0.2;
 }
 
-/*RESPONSIVE*/
+@media (max-width: 850px) {
+    .form {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-info:before {
+        bottom: initial;
+        top: -75px;
+        right: 65px;
+        transform: scale(0.95);
+    }
+
+    .contact-form:before {
+        top: -13px;
+        left: initial;
+        right: 70px;
+    }
+
+    .square {
+        transform: translate(140%, 43%);
+        height: 350px;
+    }
+
+    .big-circle {
+        bottom: 75%;
+        transform: scale(0.9) translate(-40%, 30%);
+        right: 50%;
+    }
+
+    .text {
+        margin: 1rem 0 1.5rem 0;
+    }
+
+    .social-media {
+        padding: 1.5rem 0 0 0;
+    }
+}
+
 @media (max-width: 480px) {
     .container {
         padding: 1.5rem;
@@ -2411,64 +2586,20 @@ textarea.input {
     }
 }
 
-@media (max-width: 768px) {
-    .title-box {
-        width: 90%;
-        height: 70px;
-    }
-
-    .img-tienda {
-        height: 100px;
-    }
-
-    .img-tienda2 {
-        height: 100px;
-    }
-
-    .moño {
-        width: 25px;
-    }
-
-    .dot {
-        width: 7px;
-        height: 7px;
-    }
+form,
+p {
+    font-size: 15px;
 }
 
-@media (max-width: 850px) {
-    .form {
-        grid-template-columns: 1fr;
-    }
+.background {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-    .contact-info:before {
-        bottom: initial;
-        top: -75px;
-        right: 65px;
-        transform: scale(0.95);
-    }
-
-    .contact-form:before {
-        top: -13px;
-        left: initial;
-        right: 70px;
-    }
-
-    .square {
-        transform: translate(140%, 43%);
-        height: 350px;
-    }
-
-    .big-circle {
-        bottom: 75%;
-        transform: scale(0.9) translate(-40%, 30%);
-        right: 50%;
-    }
-
-    .text {
-        margin: 1rem 0 1.5rem 0;
-    }
-
-    .social-media {
-        padding: 1.5rem 0 0 0;
-    }
+.deco {
+    width: 20%;
 }
