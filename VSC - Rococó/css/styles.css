@@ -95,23 +95,6 @@ html {
     align-items: center;
 }
 
-.titulo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #93cbd6;
-    margin: 20px;
-    font-weight: 10;
-    font-size: xx-large;
-}
-
-.Formu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
 
 .footer {
     width: 100%;
@@ -276,6 +259,27 @@ figcaption h3 {
 }
 
 /* Comienza: Colores de las letras de las cards */
+
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #93cbd6;
+    margin: 20px;
+    font-weight: 10;
+    font-size: xx-large;
+}
+
+
+
+.Formu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 .aran {
     color: #4163bb;
